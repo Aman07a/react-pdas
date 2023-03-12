@@ -1,4 +1,6 @@
 function ProfileCard({ title, handle }) {
+  console.log(title, handle);
+
   return (
     <div>
       <div>Title is {title}</div>
